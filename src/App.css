@@ -1,20 +1,23 @@
 .weatherbg{
     background: url("./Components/image/img1.jpg");
+    background-repeat: no-repeat;
     height: 50vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    position: relative;
   }
   .heading{
     color:white;
     font-weight: 700;
   }
-  .wetherResultBox{
+  .wetherResultBox {
     margin: auto;
-    width: 500px;
-    height: 300px;
-  }
+    width: 323px;
+    height: 299px;
+    position: relative;
+}
   .weathorIcon{
     margin-top: 2rem;
     width: 100px;
